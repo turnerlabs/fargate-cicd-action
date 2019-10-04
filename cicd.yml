@@ -12,7 +12,7 @@ jobs:
 
       - name: Set docker image
         env:
-          REPO: 367555685970.dkr.ecr.us-east-1.amazonaws.com/fargate-cicd-poc
+          REPO: 1234567890.dkr.ecr.us-east-1.amazonaws.com/myapp
           VERSION: 0.1.0
         run: |
           BRANCH=$(echo $GITHUB_REF | cut -d "/" -f 3)
