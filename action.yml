@@ -1,0 +1,5 @@
+name: Fargate
+description: Runs commands with shell expansion in fargate-cicd build container
+runs:
+  using: docker
+  image: Dockerfile
