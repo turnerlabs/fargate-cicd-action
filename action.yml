@@ -1,5 +1,9 @@
 name: Fargate CI/CD
 description: A Github Action for doing CI/CD with fargate-cicd (Docker + AWS Fargate)
+inputs:
+  args:
+    description: "command to run"
+    required: true
 runs:
   using: docker
   image: Dockerfile
